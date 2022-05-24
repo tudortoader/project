@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "email": "admin@aero.com",
+      "name": "Captain Admin",
+      "password": "admin",
+      "id": 1
+    }
+  ],
+  "clients": [
+    {
+      "email": "tudor@test.com",
+      "password": "password",
+      "name": "Tudor",
+      "id": 1
+    },
+    {
+      "email": "andrei@test.com",
+      "password": "password",
+      "name": "Andrei",
+      "id": 2
+    },
+    {
+      "email": "robert@test.com",
+      "password": "password",
+      "name": "Robert",
+      "id": 3
+    }
+  ],
+  "airplanes": [
+    {
+      "destination": "Cluj-Napoca",
+      "seats": "135",
+      "time": "14:00",
+      "id": 1
+    },
+    {
+      "destination": "Paris",
+      "seats": "220",
+      "time": "09:00",
+      "id": 2
+    },
+    {
+      "destination": "Bucuresti",
+      "seats": "150",
+      "time": "13:00",
+      "id": 3
+    },
+    {
+      "destination": "Viena",
+      "seats": "170",
+      "time": "17:30",
+      "id": 4
+    },
+    {
+      "destination": "Roma",
+      "seats": "134",
+      "time": "15:45",
+      "id": 5
+    },
+    {
+      "destination": "Amsterdam",
+      "seats": "176",
+      "time": "22:15",
+      "id": 6
+    },
+    {
+      "destination": "Berlin",
+      "seats": "160",
+      "time": "21:15",
+      "id": 7
+    }
+  ],
+  "bookings": [
+    {
+      "destination": "Cluj-Napoca",
+      "seats": "2",
+      "time": "14:00",
+      "clientId": 1,
+      "id": 1
+    },
+    {
+      "destination": "Roma",
+      "seats": "1",
+      "time": "15:45",
+      "clientId": 1,
+      "id": 2
+    },
+    {
+      "destination": "Amsterdam",
+      "seats": "3",
+      "time": "22:15",
+      "clientId": 2,
+      "id": 3
+    },
+    {
+      "destination": "Cluj-Napoca",
+      "seats": "2",
+      "time": "14:00",
+      "clientId": 2,
+      "id": 4
+    },
+    {
+      "destination": "Berlin",
+      "seats": "2",
+      "time": "21:15",
+      "clientId": 3,
+      "id": 5
+    },
+    {
+      "destination": "Cluj-Napoca",
+      "seats": "1",
+      "time": "14:00",
+      "clientId": 3,
+      "id": 6
+    },
+    {
+      "destination": "Viena",
+      "seats": "2",
+      "time": "17:30",
+      "clientId": 3,
+      "id": 7
+    }
+  ]
+}
