@@ -30,15 +30,9 @@
   "airplanes": [
     {
       "destination": "Cluj-Napoca",
-      "seats": "135",
+      "seats": "140",
       "time": "14:00",
       "id": 1
-    },
-    {
-      "destination": "Paris",
-      "seats": "220",
-      "time": "09:00",
-      "id": 2
     },
     {
       "destination": "Bucuresti",
@@ -69,16 +63,15 @@
       "seats": "160",
       "time": "21:15",
       "id": 7
+    },
+    {
+      "destination": "Madrid",
+      "seats": "150",
+      "time": "17:00",
+      "id": 8
     }
   ],
   "bookings": [
-    {
-      "destination": "Cluj-Napoca",
-      "seats": "2",
-      "time": "14:00",
-      "clientId": 1,
-      "id": 1
-    },
     {
       "destination": "Roma",
       "seats": "1",
@@ -120,6 +113,13 @@
       "time": "17:30",
       "clientId": 3,
       "id": 7
+    },
+    {
+      "destination": "Bucuresti",
+      "seats": "1",
+      "time": "13:00",
+      "clientId": 1,
+      "id": 8
     }
   ]
 }
