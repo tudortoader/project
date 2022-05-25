@@ -1,14 +1,14 @@
-# prior to the project, the following need to be installed
+# Prior to the project, the following need to be installed
 ```
-node.js
-```
-
-# the following commands need to be run
-```
-npm install vue-cli
+node.js: https://nodejs.org/en/
 ```
 
-# project
+# The following commands need to be run
+```
+npm install -g @vue/cli
+```
+
+# Project
 
 ## Project setup
 ```
@@ -30,9 +30,26 @@ npm run build
 npm run lint
 ```
 
-# to work with the db.json database
+## To work with the db.json database
+
+### Run the following command to install required dependencies
+```
+npm install -g json-server
+```
+
+### Run the following command from the project folder to get results from the database
 ```
 json-server --watch db.json
+```
+
+### Run the following command to get access to CRUD operations on the database
+```
+npm install axios
+```
+
+## The following command needs to be run to enable routing functionalities
+```
+npm install vue-router@next
 ```
 
 ### Customize configuration
